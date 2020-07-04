@@ -1,23 +1,20 @@
 {
   "name": "zroworld",
   "version": "1.0.0",
-  "description": "3D VN game engine",
+  "description": "VRM Character Display",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "RJ",
+  "author": "Rajvir Jhawar",
   "license": "MIT",
   "dependencies": {
     "@babylonjs/core": "^4.1.0",
     "@babylonjs/loaders": "^4.1.0",
-    "@pixiv/three-vrm": "^0.3.4",
-    "babylon-vrm-loader": "^1.4.12",
-    "phaser": "^3.23.0"
+    "babylon-vrm-loader": "^1.4.12"
   },
   "devDependencies": {
-    "parcel-plugin-static-files-copy": "^2.3.1",
-    "three": "^0.114.0"
+    "parcel-plugin-static-files-copy": "^2.3.1"
   },
   "staticFiles": {
     "staticPath": "static",
